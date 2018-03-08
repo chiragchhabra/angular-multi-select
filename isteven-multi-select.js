@@ -590,7 +590,7 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
                 if ( type.toUpperCase() === 'BUTTONLABEL' ) {                    
                     return label;
                 }
-                return $sce.trustAsHtml( label );
+                return label;
             }                                
 
             // UI operations to show/hide checkboxes based on click event..
